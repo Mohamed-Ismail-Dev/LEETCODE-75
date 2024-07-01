@@ -1,0 +1,27 @@
+### 1. Merge Strings Alternatively #1768
+
+You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If one string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string.
+
+#### Code
+
+```java
+class Solution {
+    public String mergeAlternately(String word1, String word2) {
+        int len1 = word1.length();
+        int len2 = word2.length();
+        int len = len1 + len2;
+        char[] res = new char[len];
+        int j = 0, k = 0, i = 0;
+
+        while (i < len) {
+            if (j < len1) {
+                res[i++] = word1.charAt(j++);
+            }
+            if (k < len2) {
+                res[i++] = word2.charAt(k++);
+            }
+        }
+
+        return new String(res);
+    }
+}
