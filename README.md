@@ -10,6 +10,11 @@ This repository is dedicated to providing clear and efficient Java solutions for
 
 Mastering the Leetcode 75 questions is crucial for anyone aspiring to excel in technical interviews. These problems are carefully selected to cover a broad range of data structures and algorithms, ensuring you are well-prepared for the challenges posed during interviews.
 
+### Google Document
+
+For a comprehensive list and daily updates of questions, refer to our [Google Document](<https://docs.google.com/document/d/1euwQ4robo4vLm0r3tghAp13jxxfsVklrW7fZ_633qGI/edit?usp=sharing)>).
+
+
 ### Contents
 
 - **Java Solutions**: Detailed implementations in Java for each of the 75 Leetcode questions.
